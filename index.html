@@ -20,6 +20,8 @@
 
 	<!-- JustinTemplate style Css -->
 	<link rel="stylesheet" href="assets/css/justin-red.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-PvA8pyeQrLzj4aRXPxk3MYJ3H1FZlRh3o+YoMjM+uRXO7xB8peUw8Z5l41ApfFTm" crossorigin="anonymous"> -->
+
     <!-- <link rel="stylesheet" href="assets/css/justin-pink.css"> -->
     <!-- <link rel="stylesheet" href="assets/css/justin-yellow.css"> -->
     <!-- <link rel="stylesheet" href="assets/css/justin-purple.css"> -->
@@ -58,8 +60,8 @@
 					<ul class="navbar-nav ml-auto">
 						<li><a class="nav-link active" href="#home">home</a></li>
 						<li><a class="nav-link" href="#services">Service</a></li>
-						<li><a class="nav-link" href="#resume">EXPERTISES</a></li>
 						<li><a class="nav-link" href="#work">Works</a></li>
+						<li><a class="nav-link" href="#resume">EXPERTISES</a></li>
 						<li><a class="nav-link" href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -268,11 +270,98 @@
 		</section>
 		<!-- END: SERVICES -->
 
+		<!--START: WORK -->   
+		<section class="section section-work" id="work">
+			<div class="container">
+				<div class="section-head text-center">
+					<span>Portfolio</span>
+					<h2>My Works</h2>
+				</div> 
+			</div>
+			<div class="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
+				<div class=" swiper-wrapper">
+					<!-- <div class="portfolio-item swiper-slide image" data-groups="all image">
+						<a href="https://radiolalibra.com.ar" target="_blank" class="portfolio-item--content simple-ajax-popup">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/p2-2.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">radiolalibra.com.ar</h3>
+								</div>
+							</div>
+						</a>
+					</div> -->
+
+					<div class="portfolio-item swiper-slide slideshow" data-groups="all slideshow">
+						<a href="assets/images/p3-3.jpg" class="portfolio-item--content simple-ajax-popup">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/p3-3.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">radiolalibra.com.ar</h3>
+									<p class="text-white">foocus.app</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="portfolio-item swiper-slide video" data-groups="all video">
+						<a href="assets/images/p4-4.jpg" class="portfolio-item--content simple-ajax-popup">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/p4-4.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">tarjetasdigitales.app</h3>
+									<!-- <p class="text-white">foocus.app</p> -->
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<!-- <div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
+						<a href="assets/images/p5-5.jpg" class="portfolio-item--content simple-ajax-popup">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/p5-5.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">foocus.app</h3>
+								</div>
+							</div>
+						</a>
+					</div> -->
+
+					<!-- <div class="portfolio-item swiper-slide image" data-groups="all image">
+						<a href="assets/images/p6-6.jpg" class="portfolio-item--content simple-ajax-popup">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/p6-6.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">App development</h3>
+									<p class="text-white">tumenu.app</p>
+								</div>
+							</div>
+						</a>
+					</div> -->
+
+				</div>
+				<div class="portfolio-pagination">
+					
+				</div>
+			</div>
+		</section>
+		<!-- END: WORK  -->
+
+
 		<!-- START: RESUME -->
 		<section class="section section-dark section-resume" id="resume">
 			<div class="container">
 				<div class="section-head">
-					<span>Portfolio</span>
+					<span>Professional Profile</span>
 					<h2>My Expertises</h2>
 				</div>
 
@@ -357,42 +446,62 @@
 						<div class="resume-panel b-box hover-state p-4 mt-3">
 
 							<div class="mb-4 pb-2 wow fadeInUp"  data-wow-duration="1.5s">
+						    <div class="d-flex justify-content-between align-items-center">
 								<h6>Javascript</h6>
+								<i class="fab fa-js-square"></i>
+							</div>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-4 pb-2 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".2s">
-								<h6>Node.js</h6>
+								<div class="d-flex justify-content-between align-items-center">
+									<h6>Node.js</h6>
+									<i class="fab fa-node"></i>
+								</div>
 								<div class="progress mt-2" style="height: 7px;">
 								  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-4 pb-2 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".3s">
-								<h6>HTML | CSS | Bootstrap</h6>
+								<div class="d-flex justify-content-between align-items-center">
+									<h6>HTML | CSS | Bootstrap</h6>
+									<i class="fab fa-html5 mr-2"></i>
+									<i class="fab fa-css3-alt mr-2"></i>
+									<i class="fab fa-bootstrap mr-2"></i>
+								</div>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-4 pb-2 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".3s">
-								<h6>SQL</h6>
+								<div class="d-flex justify-content-between align-items-center">
+									<h6>SQL</h6>
+									<i class="fas fa-database"></i>
+								</div>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-4 pb-2 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".3s">
-								<h6>SEO & SEM</h6>
+								<div class="d-flex justify-content-between align-items-center">
+									<h6>SEO & SEM</h6>
+									<i class="fab fa-searchengin"></i>
+								</div>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-0 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".4s">
-								<h6>Premiere | Photoshop | Ilustrator</h6>
+								<div class="d-flex justify-content-between align-items-center">
+									<h6>Premiere | Photoshop | Ilustrator</h6>
+									<i class="fas fa-image"></i>
+								</div>
 								<div class="progress mt-2" style="height: 7px;">
 								  <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
@@ -476,93 +585,6 @@
 		</section>
 		<!-- END: RESUME -->
 
-		<!--START: WORK -->   
-		 <section class="section section-work" id="work">
-			<div class="container">
-				<div class="section-head text-center">
-					<span>Portfolio</span>
-					<h2>My Works</h2>
-				</div> 
-			</div>
-			<div class="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
-				<div class=" swiper-wrapper">
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="https://radiolalibra.com.ar" target="_blank" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p2-2.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">radiolalibra.com.ar</h3>
-									<!-- <p class="text-white">radiolalibra.com.ar</p> -->
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide slideshow" data-groups="all slideshow">
-						<a href="assets/images/p3-3.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p3-3.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">radiolalibra.com.ar</h3>
-									<!-- <p class="text-white">foocus.app</p> -->
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide video" data-groups="all video">
-						<a href="assets/images/p4-4.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p4-4.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">tarjetasdigitales.app</h3>
-									<!-- <p class="text-white">foocus.app</p> -->
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="assets/images/p5-5.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p5-5.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">foocus.app</h3>
-									<!-- <p class="text-white">tumenu.app</p> -->
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/images/p6-6.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p6-6.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">App development</h3>
-									<p class="text-white">tumenu.app</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-				</div>
-				<div class="portfolio-pagination">
-					
-				</div>
-			</div>
-		</section>
-		<!-- END: WORK  -->
 
 		<!-- START: CTA -->
 		<section class="section  section-freelance section-light text-center ">
@@ -577,8 +599,6 @@
 			</div>
 		</section>
 		<!-- END: CTA -->
-
-		
 
 		<!-- START: CONTACT -->
 		<section class="section section-dark section-contact" id="contact">
