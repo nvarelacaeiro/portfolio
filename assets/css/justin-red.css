@@ -1288,7 +1288,7 @@ a {
   /* Estilos para pantallas más pequeñas (responsive) */
   
   @media screen and (max-width: 768px) {
-    .container {
+    .container-card {
       flex-direction: column; /* Apilar en lugar de alinear en filas */
     }
   
