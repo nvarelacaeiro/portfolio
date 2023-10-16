@@ -1,7 +1,7 @@
 const typed = new Typed('.typed', {
   strings: [
-            '<strong class="person">Know me</strong>', 
-            '<strong class="person">Contact me</strong>', 
+            '<strong class="person">Full Stack Developer</strong>', 
+            '<strong class="person">Journalist</strong>', 
             '<strong class="person">Lets work together!</strong>'
         ],
         
